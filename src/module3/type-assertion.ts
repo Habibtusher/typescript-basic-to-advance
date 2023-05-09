@@ -16,5 +16,5 @@ const calculateKm = (val: string | number): string | number | undefined => {
 };
 
 const returnNumber = calculateKm(100) as number;
-const returnString =<string> calculateKm("100");
+const returnString =calculateKm("100") as string;
 console.log("result`", typeof returnString,returnString);
